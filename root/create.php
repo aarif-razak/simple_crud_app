@@ -1,10 +1,11 @@
 <?php
-if (isset($_POST['submit'])) {
-    require "../config.php";
-    require "../simple_crud_app/credentials.php";
+ require "../config.php";
+ require "../simple_crud_app/credentials.php";
 
-	/**we need the escape function from common */
-	require "../common.php";
+ /**we need the escape function from common */
+ require "../common.php";
+if (isset($_POST['submit'])) {
+   
     
     try  {
         $connection = new PDO($dsn, $username, $password, $options);
