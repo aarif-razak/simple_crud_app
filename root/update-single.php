@@ -7,6 +7,8 @@
 
 require "../config.php";
 require "../common.php";
+require "../simple_crud_app/credentials.php";
+
 //REquired update catch and clause
 if (isset($_POST['submit'])) {
     
@@ -77,6 +79,6 @@ if (isset($_GET['id'])) {
     <input type="submit" name="submit" value="Submit">
 </form>
 
-<a href="index.php">Back to home</a>
+<a href="../index.php">Back to home</a>
 
 <?php require "templates/footer.php"; ?>

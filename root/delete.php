@@ -6,6 +6,8 @@
 
 require "../config.php";
 require "../common.php";
+require "../simple_crud_app/credentials.php";
+
 
 if (isset($_GET["id"])) {
   try {
@@ -73,6 +75,6 @@ try {
   </tbody>
 </table>
 
-<a href="index.php">Back to home</a>
+<a href="../index.php">Back to home</a>
 
 <?php require "templates/footer.php"; ?>

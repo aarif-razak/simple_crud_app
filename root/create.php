@@ -1,6 +1,8 @@
 <?php
 if (isset($_POST['submit'])) {
-	require "../config.php";
+    require "../config.php";
+    require "../simple_crud_app/credentials.php";
+
 	/**we need the escape function from common */
 	require "../common.php";
     
@@ -63,5 +65,5 @@ if (isset($_POST['submit'])) {
     </form>
 
 	<?php include "templates/footer.php"; ?>
-	<a href="index.php">Back to home</a>
+	<a href="../index.php">Back to home</a>
 

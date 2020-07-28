@@ -12,21 +12,21 @@
   <body>
     
     <!--We need to import the header and footers -->
-    <?php include "templates/header.php"; ?>
+    <?php include "..root/templates/header.php"; ?>
 
     <ul>
       <li>
-        <a href="create.php"><strong>Create</strong></a> - add a Recipe
+        <a href="../root/create.php"><strong>Create</strong></a> - add a Recipe
       </li>
       <li>
-        <a href="read.php"><strong>View</strong></a> - Find a specific Recipe
+        <a href="../root/read.php"><strong>View</strong></a> - Find a specific Recipe
       </li>
-      <li><a href="update.php"><strong>Update</strong></a> - edit a Recipe</li>
+      <li><a href="../root/update.php"><strong>Update</strong></a> - edit a Recipe</li>
       <li>
-      <a href="delete.php"><strong>Delete</strong></a> - delete a Recipe
+      <a href="../root/delete.php"><strong>Delete</strong></a> - delete a Recipe
       </li>
     </ul>
 
-    <?php include "templates/footer.php"; ?>
+    <?php include "../root/templates/footer.php"; ?>
   </body>
 </html>
