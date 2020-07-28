@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Hello world!</h1>
+    <p>The year is: <?php echo date('Y') ?> </p>
 </body>
 
 </html>
