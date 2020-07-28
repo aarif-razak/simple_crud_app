@@ -1,11 +1,8 @@
 <?php
 
+require "../simple_crud_app/credentials.php";
 
-$host       = "localhost";
-$username   = "root";
-$password   = "root";
-$dbname     = "recipeBook"; // will use later
-$dsn        = "mysql:host=$host;dbname=$dbname"; // will use later
+$dsn        = "mysql:host=$host;dbname=$dbname"; 
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
               );
