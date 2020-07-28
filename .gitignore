@@ -24,6 +24,6 @@
 *.zip
 
 #mysql config files
-config.php
+
 install.php
 config.php
