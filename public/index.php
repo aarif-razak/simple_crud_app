@@ -21,6 +21,10 @@
       <li>
         <a href="read.php"><strong>View</strong></a> - Find a specific Recipe
       </li>
+      <li><a href="update.php"><strong>Update</strong></a> - edit a Recipe</li>
+      <li>
+      <a href="delete.php"><strong>Delete</strong></a> - delete a Recipe
+      </li>
     </ul>
 
     <?php include "templates/footer.php"; ?>

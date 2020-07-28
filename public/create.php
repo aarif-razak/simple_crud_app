@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
     	<label for="servings">Number of servings:</label>
     	<input type="text" name="servings" id="servings">
     	<label for="directions">Link to directions:</label>
-    	<input type="url" name="directions" id="directions">
+    	<input type="text" name="directions" id="directions">
     	<label for="author">Submitted by:</label>
         <input type="text" name="author" id="author">
         
