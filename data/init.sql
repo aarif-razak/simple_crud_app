@@ -3,7 +3,7 @@ CREATE DATABASE recipeBook;
 use recipeBook;
 
 CREATE TABLE recipes (
-    id INT(11)  NOT NULL PRIMARY KEY,
+    id INT(11)  NOT NULL AUTO_INCREMENT PRIMARY KEY,
     recipename VARCHAR(30) NOT NULL,
     preptime VARCHAR(30) NOT NULL,
     servings VARCHAR(50) NOT NULL,

@@ -5,12 +5,12 @@
   * recipes table.
 */
 
-require "../config.php";
-require "../common.php";
-require "../simple_crud_app/credentials.php";
-
 //REquired update catch and clause
 if (isset($_POST['submit'])) {
+  
+require "../config.php";
+require "../common.php";
+
     
     try {
       $connection = new PDO($dsn, $username, $password, $options);

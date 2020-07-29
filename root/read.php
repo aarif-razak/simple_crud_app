@@ -6,12 +6,12 @@
   *
   */
 
-  require "../config.php";
-  require "../common.php";
-  require "../simple_crud_app/credentials.php";
+  
 if (isset($_POST['submit'])) {
   try {
-   
+    require "../config.php";
+    require "../common.php";
+    
 
 
     $connection = new PDO($dsn, $username, $password, $options);

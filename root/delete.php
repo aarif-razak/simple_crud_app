@@ -2,14 +2,15 @@
 
 /**
   * Delete a recipe
-  */
-
+*/
 require "../config.php";
 require "../common.php";
-require "../simple_crud_app/credentials.php";
-
-
 if (isset($_GET["id"])) {
+  
+
+ 
+  
+  
   try {
     $connection = new PDO($dsn, $username, $password, $options);
 

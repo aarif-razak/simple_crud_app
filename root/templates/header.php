@@ -11,6 +11,6 @@
   </head>
 
   <body>
-    <h1>Simple Database App</h1>
+    <h1>Simple Recipe Database App</h1>
   </body>
 </html>

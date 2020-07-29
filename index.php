@@ -10,6 +10,7 @@
   </head>
 
   <body>
+  <h1>Simple Recipe Database App</h1>
     
     <!--We need to import the header and footers -->
     <?php include "..root/templates/header.php"; ?>
